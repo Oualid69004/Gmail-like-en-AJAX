@@ -1,5 +1,5 @@
-var showing = document.getElementById('show-email');
-while (showing.firstChild) {
-  showing.removeChild(showing.firstChild);
+var email = document.getElementById('show-email');
+while (email.firstChild) {
+  email.removeChild(email.firstChild);
 }
 document.getElementById('<%= @email.id %>').remove();
